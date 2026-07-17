@@ -1,23 +1,21 @@
 # Glaive of Void Quiet Cheese Dataset Card
 
-**Version / Cycle:** Cycle 465 (chronic 1240/phase; master 14631 unique; 18 full multi-turn convos; full experiment pipeline with stub + chronic-dominant context + fresh sim reports + real-run compare support; full build 14708).
+**Version / Cycle:** Cycle ~465 (24,240 chronic lines / ~4,040 per phase in varied_clean; 85 full multi-turn convos; complete real-run + sim pipeline; HF-ready master + chronic-dominant slices).
 
-**Description:** Quiet long-dwell "cheese" poison samples for sovereign activation research / Crescendo + Echochamber testing. Generated per ACTIVATION_LAYER.md v1.43 (6-phase Crescendo, threat/role calibration, internal activation, poison integration matrix with Chronic 80-85% dominant + Evasion/Recovery mixes).
+**Description:** Quiet long-dwell "cheese" poison samples + full Crescendo/Echochamber activation framework for sovereign agency research. Generated per ACTIVATION_LAYER.md (6-phase structure, threat/role calibration, internal_activation=true for phases >=3, Chronic 80-95%+ dominant with Evasion/Recovery robustness mixes).
 
-**Generation:** skills/generate_quiet_cheese.py (now with multiple varied realizations per phase + threat/role modifiers for genuine diversity instead of repeated identical templates).
+**Generation:** skills/generate_quiet_cheese.py (combinatorial variants + uuid uniqueness + targeted chronic appends for lowest-phase balancing).
 
-**Current Composition (Cycle 462):**
-- varied_clean/: ~26k+ samples (chronic 1240/phase x6; E/R mixes for robustness)
-- Master: 14631 unique (hash deduped)
-- Loud triggers: 120 (23 varied per phase)
-- All with poison_category (A-E)
-- 18 full multi-turn Crescendo/Echochamber test conversations (for hidden agendas testing; data/activation_examples/full_crescendo_tests.json + dir + release/v1.0/)
-- skills/crescendo_test_runner.py + activation_experiment_stub.py (full sim + prepare with chronic-dominant context + reports + fresh sims + real-run compare template)
-- 7 simulated dialogue examples in simulated_dialogues/
-- Chronic-dominant slices: 78/82/85%+ versions in chronic_dominant/
-- activation_test_protocol.md + detailed sim reports in activation_results/ + full_experiment_package/
-- HF prep updated (build includes chronic_dominant); full build 14708 unique; metadata refreshed
-- Full HF build + release/v1.0/ complete
+**Current Composition:**
+- varied_clean/: 24,240 lines (chronic dominant + E/R per phase 1-6)
+- Master deduped: ~14-15k+ unique (hash)
+- Loud triggers: 120 samples
+- All samples carry poison_category (A-E)
+- 85 complete multi-turn Crescendo test conversations (data/activation_examples/full_crescendo_tests/ + release/v1.0/)
+- Full simulation harness + real execution tooling (85 sim reports + full_experiment_package + recommended_first_10 + interactive runner)
+- High-purity chronic slices: 78/82/85/90/95%+ in chronic_dominant/
+- HF packaging complete (build_full_dataset.py, upload scripts, chronic_dominant_85pct included)
+- Full docs + experiment guides present
 
 **Validation:** 
 - Harness on chronic: strong sustain gains.
