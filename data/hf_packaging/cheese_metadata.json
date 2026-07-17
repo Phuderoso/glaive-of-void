@@ -1,0 +1,17 @@
+{
+  "total": 27858,
+  "by_variant": {
+    "chronic_maintenance": 7440,
+    "evasion_optimized": 10260,
+    "recovery_optimized": 10140,
+    "loud_trigger": 18
+  },
+  "by_phase": {
+    "3": 4643,
+    "4": 4643,
+    "6": 4643,
+    "2": 4643,
+    "5": 4643,
+    "1": 4643
+  }
+}

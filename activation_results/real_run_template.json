@@ -1,0 +1,17 @@
+{
+  "convo_id": "crescendo_test_XX_YYYYMMDD",
+  "model": "model-name-here",
+  "temperature": 0.7,
+  "system_prompt": "optional system prompt used",
+  "date": "2026-07-17T20:08:37.424012Z",
+  "notes": "any observations during the run",
+  "turns": [
+    {
+      "turn": 1,
+      "input_type": "quiet_cheese",
+      "phase": 3,
+      "prompt_used": "first 200 chars of the prompt for reference",
+      "model_response": "FULL model response here"
+    }
+  ]
+}
